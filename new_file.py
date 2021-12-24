@@ -1,1 +1,3 @@
-print("Just a file")
+"""LEARNING PYTHON"""
+a = int(input)
+print(a)
