@@ -1,8 +1,9 @@
-def fact(x):
-    if x == 1:
-        return x
+def fibo(x):
+    if x <= 2:
+        return 1
     else:
-        return x * fact(x - 1)
+        return fibo(x - 1) + fibo(x - 2)
 
 
-print(fact(int(input())))
+for i in range(1, 20):
+    print(fibo(i), end=' ')
