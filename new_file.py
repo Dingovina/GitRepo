@@ -1,9 +1,8 @@
-def fibo(x):
-    if x <= 2:
-        return 1
-    else:
-        return fibo(x - 1) + fibo(x - 2)
+def best_func_ever(a, b):
+    while a:
+        b += 1
+        a -= 1
+    return b
 
 
-for i in range(1, 20):
-    print(fibo(i), end=' ')
+print(best_func_ever(int(input()), int(input())))
