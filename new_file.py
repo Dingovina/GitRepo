@@ -1,8 +1,8 @@
-def fact(x):
+def factorial(x):
     if x == 1:
         return x
     else:
-        return x * fact(x - 1)
+        return x * factorial(x - 1)
 
 
-print(fact(int(input())))
+print(factorial(int(input())))
